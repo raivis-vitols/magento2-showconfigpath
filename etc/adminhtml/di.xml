@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Config\Block\System\Config\Form\Field">
+        <plugin name="archapps_showconfigpath_config_form_field" type="ArchApps\ShowConfigPath\Plugin\ConfigFormField"/>
+    </type>
+</config>

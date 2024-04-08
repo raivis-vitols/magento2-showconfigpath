@@ -1,0 +1,27 @@
+{
+    "description": "Magento 2 Module To Show The Config Path In Admin",
+    "name": "archapps/magento2-showconfigpath",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Raivis Vitols",
+            "email": "mail@raivis.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.1",
+        "magento/framework": "^103.0",
+        "magento/module-backend": "^102.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ArchApps\\ShowConfigPath\\": ""
+        }
+    }
+}
+
